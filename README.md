@@ -40,6 +40,10 @@ The Databricks dashboard includes:
 - Top 10 states' contribution to total emissions
 - Top-emitting counties bar chart
 
+- Preview of the dashboard
+- <img width="1483" height="667" alt="image" src="https://github.com/user-attachments/assets/5ad29b32-fd72-4e40-b9c0-42cdda45e7e2" />
+
+
 ## Repository Structure
 
 ```text
