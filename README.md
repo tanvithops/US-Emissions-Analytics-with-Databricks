@@ -119,8 +119,32 @@ US-Emissions-Analytics-with-Databricks/
     └── Gold Transformation.dbquery.ipynb
 ```
 ## Key Questions Explored
-This project explores questions such as:- Which counties produce the highest greenhouse gas emissions?- Which states contribute the most to total U.S. emissions?- Which counties have the highest emissions per person?- What percentage of U.S. emissions comes from the top 10 states?- How does population relate to emissions per person?- Where are major emissions concentrations located geographically?
-## Data Engineering Concepts Demonstrated- Medallion Architecture- Bronze, Silver, and Gold data modeling- Delta Lake tables- Unity Catalog- SQL-based ETL transformations- Data type standardization- Data quality validation- Aggregation and ranking- Window functions- Common Table Expressions- Analytical metric creation- Dashboard serving layer- Git and GitHub version control
+This project explores questions such as:- 
+- Which counties produce the highest greenhouse gas emissions?
+- Which states contribute the most to total U.S. emissions?
+- Which counties have the highest emissions per person?
+- What percentage of U.S. emissions comes from the top 10 states?
+- How does population relate to emissions per person?
+- Where are major emissions concentrations located geographically?
+  
+## Data Engineering Concepts Demonstrated
+- Medallion Architecture- Bronze, Silver, and Gold data modeling
+- Delta Lake tables- Unity Catalog
+- SQL-based ETL transformations- Data type standardization
+- Data quality validation- Aggregation and ranking
+- Window functions- Common Table Expressions
+- Analytical metric creation
+- Dashboard serving layer- Git and GitHub version control
+  
 ## Current Pipeline Status
 The project currently includes:- Raw CSV ingestion into a Bronze Delta table- Silver-layer cleaning and validation- Gold-layer business aggregations- Dashboard integration with Gold tables- Source-controlled SQL transformations- Source-controlled Databricks dashboard
-## Future Improvements- Orchestrate Bronze → Silver → Gold using Databricks Workflows- Schedule automatic pipeline runs- Add pipeline failure handling and monitoring- Add incremental ingestion for newly arriving files- Add year-over-year emissions analysis- Add dashboard filters for state and county- Add additional environmental and demographic metrics- Add automated data-quality checks
+
+## Future Improvements
+- Orchestrate Bronze → Silver → Gold using Databricks Workflows
+- Schedule automatic pipeline runs
+- Add pipeline failure handling and monitoring
+- Add incremental ingestion for newly arriving files
+- Add year-over-year emissions analysis
+- Add dashboard filters for state and county
+- Add additional environmental and demographic metrics
+- Add automated data-quality checks
